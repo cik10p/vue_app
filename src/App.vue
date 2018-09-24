@@ -1,15 +1,19 @@
 <template>
   <div id="app">
+    <users2></users2>
     [<Posts></Posts>]
   </div>
 </template>
 
 <script>
 import Posts from "./components/Posts"
+import Users from "./components/Users"
+import Users2 from "./components/Users2"
+
 export default {
   name: 'App',
   components:{
-    Posts
+    Posts, Users,Users2
   }
 }
 </script>
